@@ -18,3 +18,6 @@ run:
 
 up:build
 	docker run -p8000:8000 --volume "C:/Users/mikai/Desktop/kitanda_shop/src/:/app" --env-file etc/dev.env -it oscar-container
+
+shell:
+	docker exec oscar-container 
