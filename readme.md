@@ -13,7 +13,7 @@
     
 ## Fazendo build do container 
 
-    make buil
+    make build
     
 ## Para rodar o projeto
 
